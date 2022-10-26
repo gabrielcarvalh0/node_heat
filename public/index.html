@@ -12,7 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js"></script>
 
 <script>
-    const socket = io("https://node-heat.vercel.app/");
+    const port = process.env.PORT || "http://localhost:4000/";
+    const socket = io(port);
 
     socket.on("new_message", data=>{
         console.log(data)

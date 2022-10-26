@@ -1,3 +1,3 @@
 import { serverHttp } from "./app";
-
-serverHttp.listen('https://node-heat.vercel.app/', () => console.log('wello word!'))
+const port = process.env.PORT || 4000;
+serverHttp.listen(port, () => console.log('wello word!'))
