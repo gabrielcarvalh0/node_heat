@@ -1,0 +1,17 @@
+Criamos a auth do user com o github 
+criamos uma rota de calback 
+
+
+ferramentas utilizadas no backend aula 01:
+
+- Prisma
+- SocketIO Realtime
+- Node 
+- TypeScript
+
+
+GITHUB_CLIENT_SECRET=bef7b8f64ffe3c2322c8c864d4e9b7d94cabe0da
+GITHUB_CLIENT_ID=1809cc0e9fe1017b2de4
+
+JWT_SECRET=75f9f02d5b695e34d9d95a30e577586c
+
