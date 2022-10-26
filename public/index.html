@@ -7,11 +7,12 @@
     <title>NLW Heat</title>
 </head>
 <body>
+    
     <h1>Ola</h1>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js"></script>
 
 <script>
-    const socket = io("https://node-heat-51a96foyr-gabrielcarvalh0.vercel.app/");
+    const socket = io("https://node-heat-gabrielcarvalh0.vercel.app");
 
     socket.on("new_message", data=>{
         console.log(data)
