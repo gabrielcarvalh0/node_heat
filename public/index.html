@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js"></script>
 
 <script>
-    const socket = io('https://node-heat-backend.herokuapp.com/');
+    const socket = io('https://node-heat.vercel.app/');
 
     socket.on("new_message", data=>{
         console.log(data)
