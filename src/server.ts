@@ -1,3 +1,3 @@
 import { serverHttp } from "./app";
-const port = process.env.PORT || 4000;
-serverHttp.listen(port, () => console.log('wello word!'))
+
+serverHttp.listen(process.env.PORT || "4000", () => console.log('wello word!'))
